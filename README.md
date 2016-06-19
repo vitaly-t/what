@@ -13,7 +13,10 @@ var w = new What('walk-expression', 'tx-expression', {});
 
 var myData = {}; // any type of value in fact
 
-var result = w.process(myData);
+var result = w.sync(myData); // executes standard synchronous walk-and-tranform processor
+
+var p = w.async(myData); // executes asynchronous walk-and-tranform processor that returns a promise
+
 ```
 
 The result can be automatically chained.
