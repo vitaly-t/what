@@ -1,4 +1,4 @@
-# what
+# WHAT
 
 This is just an idea for a library...
 
