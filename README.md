@@ -2,7 +2,7 @@
 
 This is just an idea for a library...
 
-WHAT - walk and transform - generic interface for navigating through values and transforming them.
+WHAT - _walk and transform_ - generic interface for navigating through values and transforming them.
 
 ```js
 function What(walker, transformer, params) {
